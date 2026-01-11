@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+@media (max-width: 768px){
+    .hero{
+        flex-direction: column;
+    }
+    .logo{
+        font-size: 18px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .project{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 10px;
+    }
+    
+}
+body{
+    background-image: linear-gradient(to right,grey,rgb(47, 35, 35));
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to right,black,rgb(124, 124, 168));
+    color: white;
+    padding: 10px;
+
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+    
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(123, 115, 115);
+    text-decoration: none;
+    transition: 0.5s;
+}
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.hero{  
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to left,grey,black);
+    height:80vh;
+    box-shadow: 20px;
+    border-radius: 20px;
+}
+.project{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    border: solid grey 2px;
+    border-radius: 20px;
+    background-image: linear-gradient(to left,rgba(96, 89, 89, 0.158),rgba(212, 18, 18, 0.103));
+}
+.project .p1{
+    border: solid grey 1px;
+    border-radius: 30px;
+}
+.btn{
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 10px;
+    background-color: rgb(80, 8, 8);
+    color: rgb(249, 234, 234);
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: rgb(25, 10, 10);
+    transition: 0.5s;
+}
+.foot{
+    text-align: center;
+    background-image: linear-gradient(to right,rgb(0, 0, 0),rgb(40, 42, 42));
+    color: white;;
+}

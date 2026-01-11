@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+    <style>
+        .hat {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 25px;
+            background-image: linear-gradient(to right, grey, black);
+            text-align: center;
+            color: rgb(249, 236, 236);
+            font-weight: 600px;
+
+        }
+
+        .content {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+            border: solid grey 2px;
+            border-left-color: black;
+            border-style: outset;
+            height: 50vw;
+            align-items: center;
+            border-radius: 50px;
+        }
+
+        .img {
+            align-self: center;
+            border-radius: 50px;
+        }
+        .bta{
+            padding: 10px;
+            margin-top: 20px;
+            margin-left: 50px;
+            cursor: pointer;
+            background-color: rgba(211, 218, 226, 0.927);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .bta a{
+            text-decoration: none;
+        }
+        .bta:hover{
+            background-image: linear-gradient(to right,rgb(230, 196, 196),grey);
+            transition: all 0.5s;
+        }
+    </style>
+
+</head>
+
+<body>
+    <main>
+        <nav>
+            <div class="logo">Abhinav's Portfolio</div>
+            <ul>
+                <li><a href="index.html">Home</li></a>
+                <li><a href="about.html">About</li></a>
+                <li><a href="services.html">Blogs</li></a>
+                <li><a href="contact.html">Contact</li></a>
+            </ul>
+        </nav>
+    </main>
+    <section class="about">
+        <div class="hat">
+            ABOUT
+        </div>
+        <div class="content">
+            <div>
+                <p style="margin-left: 50px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: large;color: white;text-decoration: underline overline;">An Aspiring WEB DEVELOPER</p>
+                <p style="margin-left: 90px;margin-top: 20px; color: rgb(233, 205, 205);">Hello Friends !!</p>
+                <p style="color: rgb(221, 202, 202); margin-top: 10px;">I am <u>Abhinav Kaushik</u>,a college student.Busy in <br>
+                    testing my curiosities,ended being a lover of web <br>
+                    development and design.You will find exciting blogs
+                    <br>here related to my desires,worldly affairs and so on....
+                </p>
+                <button class="bta"><a href="services.html">Go to Blogs</a></button>
+            </div>
+            <img class="img" width="250px" height="250px" src="web-developer.png" alt="dev img">
+        </div>
+    </section>
+</body>
+<footer class="foot">Copyright &copy; 2029 || All rights reserved</footer>
